@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>简单计算器</title>
+	<meta charset="utf-8">
+	<script src="calculator.js"></script>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+	<div id = "computer">
+		<h>简单计算器</h>
+		<div id = "display"><p id = "result"></p></div>
+		<dic id = "bottons">
+			<table>
+				<tr>
+					<td><button onclick = "calculate('7')">7</button></td>
+					<td><button onclick = "calculate('8')">8</button></td>
+					<td><button onclick = "calculate('9')">9</button></td>
+					<td><button onclick = "calculate('/')">/</button></td>
+				</tr>
+				<tr>
+					<td><button onclick = "calculate('4')">4</button></td>
+					<td><button onclick = "calculate('5')">5</button></td>
+					<td><button onclick = "calculate('6')">6</button></td>
+					<td><button onclick = "calculate('*')">*</button></td>
+				</tr>
+				<tr>
+					<td><button onclick = "calculate('1')">1</button></td>
+					<td><button onclick = "calculate('2')">2</button></td>
+					<td><button onclick = "calculate('3')">3</button></td>
+					<td><button onclick = "calculate('-')">-</button></td>
+				</tr>
+				<tr>
+					<td><button onclick = "calculate('0')">0</button></td>
+					<td><button onclick = "calculate('.')">.</button></td>
+					<td><button onclick = "calculate('<-')"><-</button></td>
+					<td><button onclick = "calculate('+')">+</button></td>
+				</tr>
+				<tr>
+					<td><button onclick = "calculate('(')">(</button></td>
+					<td><button onclick = "calculate(')')">)</button></td>
+					<td><button onclick = "calculate('CE')">CE</button></td>
+					<td><button onclick = "calculate('=')">=</button></td>
+				</tr>
+			</table>
+		</dic>
+	</div>
+</body>
+</html>

@@ -1,0 +1,119 @@
+body{
+    background-image: url("https://tva1.sinaimg.cn/large/006y8mN6ly1g8asm4az0rj31hc0u0b2a.jpg");
+    background-position: center;
+}
+#mole{
+    position: relative;
+    margin: 0 auto;
+    font-family: Hanzipen SC;
+    color: white;
+}
+
+h1{
+    left: 123px;
+    position: relative;
+    font-size: 60px;
+}
+
+#ruleandbuttonbar{
+    position: relative;
+    padding-left: 327px;
+}
+
+#rule{
+    font-size: 20px;
+}
+
+#buttonbar{
+    padding-left: 93px;
+}
+
+#startOrEnd{
+    font-family: Hanzipen SC;
+    position: relative;
+    font-size: 15px;
+    width: 200px;
+    height: 30px;
+    color: blue;
+    border-radius: 50px;
+}
+
+#Time{
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+    left: 250px;
+}
+
+#t_time{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 20px;
+    border-color: white;
+    border-style: solid;
+    font-size: 15px;
+    border-radius: 50px;
+    color: blue;
+    background-color: white;
+    border-width: 1px;
+}
+
+
+#gameOver{
+    position: relative;
+    left: 31px;
+    border-style: solid;
+    border-color: white;
+    color: blue;
+    border-width: 1px;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+#Score{
+    font-size: 20px;
+    position: relative;
+    top: -18px;
+    left: 250px;
+}
+
+#t_score{
+    text-align: center;
+    border-color: white;
+    background-color: white;
+    color: blue;
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 20px;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#map{
+    position: relative;
+    padding-left: 441px;
+    display: inline-block;
+}
+
+#map button{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+#explain{
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+    left: 350px;
+}
+

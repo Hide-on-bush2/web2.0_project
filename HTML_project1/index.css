@@ -1,0 +1,55 @@
+body{
+    background-image: url(http://ww2.sinaimg.cn/large/006y8mN6ly1g6pwpb07spj30dw099wee.jpg);
+    background-position: center;
+    background-attachment:fixed
+}
+
+.center{
+    text-align: center;
+}
+
+.indent{
+    text-indent: 2em;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+h2{
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.text{
+    text-indent: 2em;
+    width: 900px;
+    height: 150px;
+    margin-left: 15em;
+    margin-right: 15em;
+    line-height: 1.5;
+    text-align:justify;
+    text-justify:inter-ideograph;
+}
+
+.table, .link{
+    margin-left: 15em;
+    margin-right: 15em;
+    font-family: "Lucida Grande";
+}
+
+h1, h2{
+    font-family: "Century Gothic", "Futura", "Verdana", sans-serif;
+    font-size: 22pt;
+    font-weight: bold;
+    word-spacing: 0.2em;
+}
+
+h2{
+    font-size: 18pt;
+    font-weight: normal;
+}
+
+p{
+    color:#404040;
+    font-size: 11pt;
+    font-family: "Helvetica";
+}

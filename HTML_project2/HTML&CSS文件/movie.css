@@ -1,0 +1,135 @@
+body{
+    font-size: 8pt;
+    font-family: "Verdana", "Tahoma", sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+#background{
+    background-attachment: fixed;
+    background-image:url(http://ww4.sinaimg.cn/large/006y8mN6ly1g70jjat20mj3043043mwy.jpg);
+}
+
+.text{
+    font-size: 8pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#banner{
+    background-image:url(http://ww1.sinaimg.cn/large/006y8mN6ly1g70k1lko4rj305k01e0ot.jpg);
+	text-align: center ;
+    background-repeat: repeat-x;
+    height: 50px;
+}
+#movie_name{
+	text-align: center;
+    font-size:24pt;
+    font-weight:bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#block{
+    border-color: gray ;
+    border-style: solid ;
+    border-width: 4px;
+    border-height: 100%;
+    width: 800px;
+    overflow: hidden ;
+    margin: 0 auto;
+}
+#over_view{
+    background-image:  url(http://ww1.sinaimg.cn/large/006y8mN6ly1g72fzjfdiyj300a02b0af.jpg);
+    background-repeat: repeat-x ;
+    height: 83px;
+    width: 550px;
+}
+#over_view img{
+    float: left;
+}
+#a32{
+    font-size: 48pt;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold ;
+	line-height: 140%;
+}
+#b88{
+    color: white ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 8pt;
+}
+#picture{
+    float: right;
+}
+#content{
+    float: right;
+}
+#review{
+    vertical-align: 3em;
+    float: left;
+    width: 550px;
+}
+#review-left{
+    margin-top: 1em;
+    margin-bottom: 3em;
+    width: 47%;
+    float: left;
+    margin-left: 2%;
+}
+#review-right{
+    margin-top: 1em;
+    width: 47%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.quote{
+    font-size: 8pt;
+    font-weight: bold ;
+    background-color: #E1D697;
+    border-color: gray;
+    border-style: solid ;
+    border-width: 2px;
+    padding: 8px;
+    overflow: hidden ;    
+}
+.unit{
+    margin-bottom: 3em;
+}
+.quote img{
+    float: left;
+    margin-right: 5px;
+}
+.person{
+    font-style: italic ;
+}
+.person img{
+    float: left;
+    margin-right: 5px;
+}
+
+#overview{
+    width: 250px;
+    float: right;
+    background-color: #A2B964;
+    font-size: 8pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#overview dl{
+    margin: 10px;
+}
+#bottom-text{
+    background-color: #A2B964;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+#bottom-picture{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+#main_body{
+    overflow: hidden;
+}
+dt{
+    margin-top: 1em;
+    font-weight: bold;
+}

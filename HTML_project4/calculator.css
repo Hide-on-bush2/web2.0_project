@@ -1,0 +1,74 @@
+h{
+	font-family: "Wawati SC", Geneva, Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	text-align: center;
+	position: relative;
+	left: 50px;
+	color: #8B008B;
+}
+
+#computer{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 100px;
+	left: 350px;
+	background-image: url("https://tva1.sinaimg.cn/large/006y8mN6ly1g82i14gtevj31790u0e83.jpg");
+	background-position: center;
+	background-size: 100% 100%;
+	border-radius: 10px;
+}
+
+#display{
+	font-family: Xingkai SC;
+	font-size: 30px;
+	padding: 3px;
+	opacity: 0.7;
+	background-color: white;
+	height: 20px;
+	width: 250px;
+	position: relative;
+	left: 25px;
+	border-color: gray;
+	border-style: solid;
+	border-radius: 25px;
+	border-width: 2px;
+}
+
+#result{
+	letter-spacing: 0.3em;
+	position: relative;
+	top: -45px;
+	height: 40px;
+	width: 230px;
+	overflow: hidden;
+}
+
+#bottons{
+	height: 240px;
+	width: 250px;
+	position: relative;
+	left: 25px;
+}
+
+td{
+	width: 57px;
+	height: 40px;
+	position: relative;
+	text-align: center;
+}
+
+button{
+	font-size: 20px;
+	opacity: 0.6;
+	width: 50px;
+	height: 35px;
+	position: relative;
+}
+
+button:hover {
+	opacity: 1;
+	width: 50px;
+	height: 35px;
+	position: relative;
+}

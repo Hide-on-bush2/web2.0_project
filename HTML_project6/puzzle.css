@@ -1,0 +1,140 @@
+body{
+   background-image: url("https://tva1.sinaimg.cn/large/006y8mN6ly1g8pxdfkyncj31hc0u07c6.jpg");
+   background-size: 150%;
+   /*background-color: rgba(0, 0, 0, 0.5);*/
+   /*opacity: 0.5;*/
+   background-position-x: -300px;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+h1 {
+   font-family: "Yuanti SC";
+   text-align: center;
+   font-weight: normal;
+   letter-spacing: 0.1em;
+   margin: 20px;
+}
+
+#fifteen {
+   width: 360px;
+   height: 360px;
+   margin: 0 auto;
+   display: block;
+   position: relative;
+   /*opacity: 0.5;*/
+}
+
+
+
+#smallPic {
+   width: 250px;
+   height: 250px;
+   margin-left: 15px;
+}
+
+label {
+   /*position: relative;*/
+   /*left: 100px;*/
+   /*top: 100px;*/
+   margin-left: 10px;
+   font-size: 25px;
+}
+
+span {
+   color: darkcyan;
+   font-size: 25px;
+}
+
+select {
+   margin-left: 10px;
+   margin-top: 10px;
+}
+
+#statu {
+   top: 220px;
+   width: 280px;
+   height: 280px;
+   position: absolute;
+   left: 70%;
+}
+
+/*#t_time{*/
+/*   position: relative;*/
+/*   top: 50px;*/
+/*}*/
+
+/*#t_step{*/
+/*   position: relative;*/
+/*   top: 50px;*/
+/*}*/
+
+#fifteen div{
+   width: 86px;
+   height: 86px;
+   border: 1px solid #CCCCCC;
+   margin: 1px;
+   background-image: url("https://tva1.sinaimg.cn/large/006y8mN6ly1g8pt07biwhj30qs11qnpe.jpg");
+   background-repeat: no-repeat;
+   background-size: 450%;
+   position: absolute;
+   -webkit-transition: all 0.4s;
+   -moz-transition: all 0.4s;
+   -ms-transition: all 0.4s;
+   -o-transition: all 0.4s;
+   transition: all 0.4s;
+}
+
+#fifteen>div:hover {
+   /*opacity: 1;*/
+   cursor: pointer;
+   transform: scale(1.03);
+}
+
+.row1 {top: 0px;}
+.row2 {top: 88px;}
+.row3 {top: 176px;}
+.row4 {top: 264px;}
+.col1 {left: 0px;}
+.col2 {left: 88px;}
+.col3 {left: 176px;}
+.col4 {left: 264px;}
+
+#restart {
+   display: block;
+   margin: 30px auto;
+   background-color: aquamarine;
+   color: cornflowerblue;
+   width: 130px;
+   height: 45px;
+   font-size: 25px;
+   font-weight: bold;
+   cursor: pointer;
+   border: none;
+   box-shadow: 5px 5px 5px #999999;
+   border-radius: 20%;
+}
+
+#restart:active {
+    background-color: #05a;
+}
+
+#pic1 {background-position: -0px 0px;}
+#pic2 {background-position: -88px 0px;}
+#pic3 {background-position: -176px 0px;}
+#pic4 {background-position: -264px 0px;}
+#pic5 {background-position: 0px -88px;}
+#pic6 {background-position: -88px -88px;}
+#pic7 {background-position: -176px -88px;}
+#pic8 {background-position: -264px -88px;}
+#pic9 {background-position: 0px -176px;}
+#pic10 {background-position: -88px -176px;}
+#pic11 {background-position: -176px -176px;}
+#pic12 {background-position: -264px -176px;}
+#pic13 {background-position: 0px -264px;}
+#pic14 {background-position: -88px -264px;}
+#pic15 {background-position: -176px -264px;}
+#fifteen #empty {border: none; background: none;}
