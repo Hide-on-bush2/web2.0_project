@@ -22,3 +22,4 @@ function calculate(s){
 		document.getElementById("result").innerHTML = expression;
 	}
 }
+

@@ -1,0 +1,52 @@
+table, th, td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+thead{
+    background-color: darkblue;
+    color: white;
+}
+
+.todo_ascending{
+    background-image: url("https://tva1.sinaimg.cn/large/006y8mN6ly1g8z0rkb318j300g00g090.jpg");
+    background-position: center right;
+    background-repeat: no-repeat;
+    /*padding: 1px 18px 1px 1px;*/
+}
+
+.todo_descending{
+    background-image: url("https://tva1.sinaimg.cn/large/006y8mN6ly1g8z0zkz4pej300g00g09r.jpg");
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+.staff_ascending{
+    background-image: url("https://tva1.sinaimg.cn/large/006y8mN6ly1g8z0rkb318j300g00g090.jpg");
+    background-position: center right;
+    background-repeat: no-repeat;
+    padding: 1px 18px 1px 1px;
+}
+
+.todo_descending{
+    background-image: url("https://tva1.sinaimg.cn/large/006y8mN6ly1g8z0zkz4pej300g00g09r.jpg");
+    background-position: center right;
+    background-repeat: no-repeat;
+    padding: 1px 18px 1px 1px;
+}
+
+/*.alternate{*/
+/*    background-color: lightgray;*/
+/*}*/
+
+.second_line{
+    background-color: lightgray;
+}
+
+thread image{
+    text-align: right;
+}
+
+
+
